@@ -1,0 +1,9 @@
+create virtualenv
+	python3 -m venv relative/path/to/env_name
+
+enter virtualenv
+	source relative/path/to/env_name/bin/activate
+	should see (env_name) before command line prompt
+	
+exit virtualenv
+	deactivate
